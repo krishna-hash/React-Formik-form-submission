@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("./hh.jpg");
+  background-size: cover;
+  display: flex;
+  height: 70vh;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+Form {
+  position: relative;
+  font-size: 16px;
+  height: 50px;
+  width: 50vh;
+}
+
+.error {
+  color: red;
+  font-size: 16px;
+}
+
+h5 {
+  color: red;
+  font-size: 16px;
+}
+span {
+  color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: capitalize;
+  font-size: 10fr;
+
+  background: linear-gradient(to left, #080008f3, #ee0212, #0c0002f3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline;
+}
+
+button {
+  position: absolute;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: red;
+  border-radius: 3px;
+
+  color: white;
+  height: 30px;
+  width: 80px;
+  left: 6%;
+}
